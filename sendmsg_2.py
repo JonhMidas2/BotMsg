@@ -45,9 +45,9 @@ WebDriverWait(driver, 60).until(
     EC.presence_of_element_located((By.XPATH, "//div[@id='side']"))
 )
 
-promotion = "%E2%9A%A0%EF%B8%8F%20MUITA%20ATEN%C3%87%C3%83O%20NA%20MENSAGEM%20ABAIXO%0A%0AOl%C3%A1!%20Ainda%20n%C3%A3o%20faz%20parte%20da%20nossa%20comunidade?..."
+promotion = ""
 
-resp_1 = "Olá, como vai? Espero que esteja tudo bem! Entre para nossa comunidade do telegram, e fique por dentro das novidades, cursos, bate-papo e referências: https://t.me/rateiogarantido"
+resp_1 = ""
 
 def aut_msg():
     start_line = read_progress(progress_file)
